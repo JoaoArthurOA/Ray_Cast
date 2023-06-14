@@ -1,1 +1,10 @@
-
+Dupla: joão Arthur, Alice Gonzalez
+3°JD
+Começamos o projeto usando a função do ray cast para destruir objetos que o player clickasse sobre e então tivemos a ideia para fazer um minigame.
+https://i.imgur.com/U4hshZl.jpg
+A ideia do jogo é contar quantos inimigos o jogador consegue destruir antes que a tela seja preenchida pelos mesmos. Usando neste projeto as funções de ray cast e destroy on click para fazermos a base do jogo, o canvas com um contador para fazer os pontos e para a aparição dos inimigos utilizamos o instantiate para gera-los e o prefab para criar o objeto. 
+https://i.imgur.com/gupP79f.jpg
+O script do RayCast é aplicado em um objeto Score ( pois também marcará a pontuação do jogador ), que pertence a um Canva dentro da Main Camera. A função do RayCast irá detectar quando o jogador clicar com o botão esquerdo
+do mouse , e caso estiver clicando em cima de um dos "inimigos" este será destruído. Os inimigos estão em uma layer especificada, para que não seja possível o Script do RayCast destruir outros objetos.
+https://i.imgur.com/jazCbNa.jpg
+https://i.imgur.com/fCDefZQ.jpg
